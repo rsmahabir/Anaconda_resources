@@ -1,7 +1,10 @@
 # Install git repository into conda
-## Activate your conda environment source
-activate myenv
-# install git and pip modules
+## Activate your conda environment source. 
+source activate myenv # - MacOS/Linux 'myenv' is your environment
+activate myenv #-Windows
+## If you don't know youe environment, get a list by 
+conda info --envs
+## install git and pip modules
 conda install git pip
-# install packages.
+## install packages.
 pip install git+git://github.com/scrappy/scrappy@master
