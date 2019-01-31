@@ -8,3 +8,11 @@ conda info --envs
 conda install git pip
 ## install packages.
 pip install git+git://github.com/scrappy/scrappy@master
+
+
+
+
+
+#Spacy - loading model fails error
+# This could be due to the installation of several package sites
+# One workaround would be to directly load the pack:  nlp = spacy.load('/anaconda3/lib/python3.6/site-packages/spacy/data/es/es_core_news_sm-2.0.0')
